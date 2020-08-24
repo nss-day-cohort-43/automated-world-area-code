@@ -1,0 +1,39 @@
+/* Nav Bar CSS */
+
+.logo {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logoimg {
+    text-align: center;
+    width: 30em;
+    height: auto;
+  }
+  
+  button {
+    font-family: inherit;
+  }
+  
+  .countries {
+    display: flex;
+    justify-content: space-around;
+    border-style: solid;
+    background-color:lightgoldenrodyellow;
+    padding: 0.5em;
+    max-width: 60em;
+    border-radius: 30px;
+    margin: auto;
+  }
+  
+  .country {
+      background-color: goldenrod;
+      padding: 10px 16px;
+      font-size: 16px;
+      border-radius: 12px;
+      width: 40em;
+  }
+  
+  button:hover {
+    color:white
+  }

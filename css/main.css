@@ -1,0 +1,116 @@
+@import "header.css";
+
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .country-info {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .country-image {
+        width: 50em;  
+        height: auto; 
+        align-self: center;
+        border-style: solid;
+        background-color:lightgoldenrodyellow;
+        padding: 0.5em;
+        border-radius: 30px;
+        margin: 3em;
+        border: 100%;
+    }
+
+    .country-title {
+        align-self: center;
+    }
+
+    .country-details {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .cities {
+        border: 5px solid;
+        padding: 2em;
+        flex-grow: 1;
+        background: lightgoldenrodyellow;
+        border-radius: 12px;
+    }
+
+    .landmarks {
+        border: 5px solid;
+        padding: 2em;
+        flex-grow: 1;
+        margin-left: 1em;
+        margin-right: 1em;
+        background: lightgoldenrodyellow;
+        border-radius: 12px;
+    }
+
+    .citizens {
+        border: 5px solid;
+        padding: 2em;
+        flex-grow: 1;
+        background: lightgoldenrodyellow;
+        border-radius: 12px;
+    }
+
+    .information {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .about-us {
+        max-width: 50em;
+        margin-top: -1em;
+        text-align: center;
+    }
+    
+    .travel-agents {
+        margin-bottom: 0;
+    }
+
+    .agents {
+        border: 5px solid;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        align-self: flex-start;
+        background: lightgoldenrodyellow;
+        padding: 0.5em;
+        border-radius: 30px;
+        border: 100%;
+    }
+
+    .agent-list {
+        display: flex; 
+        flex-direction: column;
+    }
+
+    .agentimage {
+        width: auto;
+        height: 10em;  
+    }
+
+    .name {
+        display: flex;
+        flex-direction: row;
+        align-content: flex-start;
+        margin-bottom: 1.5em; 
+        margin-top: 1.5em;  
+    }
+
+    .bio {
+        margin-left: 0.5em;
+    }
+
+    footer {
+        padding: 2em; 
+        text-align: center;
+    }
