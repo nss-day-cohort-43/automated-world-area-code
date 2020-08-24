@@ -12,8 +12,6 @@ export const addCity = () => {
         cityHTMLRepresentation  += cityHTML(eachCity);
     }
 
-    console.log(cityHTMLRepresentation);
-
     contentElement.innerHTML += `
         ${cityHTMLRepresentation}
     `
