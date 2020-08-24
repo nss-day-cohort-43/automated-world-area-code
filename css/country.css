@@ -1,0 +1,60 @@
+@import "main.css";
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+  
+section{
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.cities {
+    max-width: 100%;
+    height: auto;
+    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/uk_london.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items : center;
+    border: thick solid black;
+    margin: 1em;
+    padding-left: .5em;
+    box-shadow: 10px 10px 8px 3px black;
+    color: white;
+}
+
+
+
+.landmarks {
+    max-width: 100%;
+    height: auto;
+    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/uk_edinburgh.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items : center;
+    border: thick solid black;
+    margin: 1em;
+    padding-left: .5em;
+    box-shadow: 10px 10px 8px 3px black;
+    color: white;
+}
+
+
+.citizens {
+    max-width: 100%;
+    height: auto;
+    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/uk_flag.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items : center;
+    border: thick solid black;
+    margin: 1em;
+    padding-left: .5em;
+    box-shadow: 10px 10px 8px 3px black;
+    color: white;
+}
+ 
