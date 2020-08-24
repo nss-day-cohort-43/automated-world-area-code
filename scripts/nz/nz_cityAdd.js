@@ -7,7 +7,7 @@ export const addCity = () => {
     const cityArray =  cityArrayCopy();
 
     let cityHTMLRepresentation = "";
-
+    debugger;
     for (const eachCity of cityArray) {
         cityHTMLRepresentation  += cityHTML(eachCity);
     }
