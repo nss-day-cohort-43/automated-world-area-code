@@ -8,8 +8,8 @@ const landmarksArray = [
     {
         landmarkName: "Landmark 3"
     }
-]
+];
 
 export const landmarksArrayCopy = () => {
     return landmarksArray.slice();
-}
+};
