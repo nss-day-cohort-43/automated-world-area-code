@@ -15,6 +15,4 @@ export const cityList = () => {
     ${cityHTMLRepresentation}
     `
 
-
-
 }
