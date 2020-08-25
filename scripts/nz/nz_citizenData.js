@@ -1,12 +1,12 @@
 const citizenArray = [
     {
-        citizenName: "Jean Batten"
+        citizenName: "Jean Batten, famous aviator"
     },
     {
-        citizenName: "Kate Sheppard"
+        citizenName: "Kate Sheppard, leader in women's suffrage movement"
     },
     {
-        citizenName: "Peter Jackson"
+        citizenName: "Peter Jackson, film director"
     }
 ];
 
