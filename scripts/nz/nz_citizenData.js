@@ -1,12 +1,12 @@
 const citizenArray = [
     {
-        citizenName: "Citizen 1"
+        citizenName: "Jean Batten"
     },
     {
-        citizenName: "Citizen 2"
+        citizenName: "Kate Sheppard"
     },
     {
-        citizenName: "Citizen 3"
+        citizenName: "Peter Jackson"
     }
 ];
 

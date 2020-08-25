@@ -1,12 +1,12 @@
 const landmarksArray = [
     {
-        landmarkName: "Landmark 1"
+        landmarkName: "Milford Sound (Piopiotahi)"
     },
     {
-        landmarkName: "Landmark 2"
+        landmarkName: "Mount Cook (Aoraki)"
     },
     {
-        landmarkName: "Landmark 3"
+        landmarkName: "Sky Tower"
     }
 ];
 

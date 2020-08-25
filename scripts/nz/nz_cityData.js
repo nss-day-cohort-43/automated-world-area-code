@@ -1,12 +1,12 @@
 const cityArray = [
     {
-        cityName: "City 1"
+        cityName: "Auckland"
     },
     {
-        cityName: "City 2"
+        cityName: "Wellington"
     },
     {
-        cityName: "City 3"
+        cityName: "Queenstown"
     }
 ];
 
