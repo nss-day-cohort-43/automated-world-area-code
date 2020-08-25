@@ -1,0 +1,32 @@
+@import "uk.css";
+@import "brazil.css";
+
+/* body {
+    margin: 0;
+    padding: 0;
+} */
+
+.imgBanner {
+    background: url(/images/nz_banner.png) no-repeat fixed center;
+    background-size: cover;
+    height: 600px;
+}
+
+.countryH1 {
+    color: rgb(246, 246, 246);
+    text-align: center;
+    /* font-size: 3em; */
+    text-shadow: 3px 3px #1A5F9B;
+}
+
+.cities {
+    background: url(/images/nz_auckland.jpg);
+}
+
+.landmarks {
+    background: url(/images/nz_mtns.jpg);
+}
+
+.citizens {
+    background: url(/images/nz_queen.jpg);
+}
