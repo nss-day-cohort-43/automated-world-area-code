@@ -1,0 +1,13 @@
+@import "country.css";
+
+.cities {
+    background: url(/images/nz_auckland.jpg);
+}
+
+.landmarks {
+    background: url(/images/nz_mtns.jpg);
+}
+
+.citizens {
+    background:  url(/images/nz_queen.jpg);
+}
