@@ -1,0 +1,65 @@
+@import "country.css";
+
+.imgBanner {
+    background: url(/images/bz_background.jpg) no-repeat fixed center;
+    background-size: cover;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+  }
+
+h1 {
+    /* background: black; */
+    color: white; 
+    text-shadow: 3px 3px #1A5F9B;
+}
+
+.citizens {
+    max-width: 100%;
+    height: auto;
+    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/bz_ppl.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items : center;
+    border: thick solid black;
+    margin: 1em;
+    padding-left: .5em;
+    box-shadow: 10px 10px 8px 3px black;
+    color: white;
+}
+
+.landmarks {
+    max-width: 100%;
+    height: auto;
+    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/bz_landmarks.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items : center;
+    border: thick solid black;
+    margin: 1em;
+    padding-left: .5em;
+    box-shadow: 10px 10px 8px 3px black;
+    color: white;
+}
+
+.cities {
+    max-width: 100%;
+    height: auto;
+    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/bz_rio.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items : center;
+    border: thick solid black;
+    margin: 1em;
+    padding-left: .5em;
+    box-shadow: 10px 10px 8px 3px black;
+    color: white;
+}
