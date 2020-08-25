@@ -1,8 +1,37 @@
-@import "main.css";
+
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(white, grey);
 }
+
+.countries {
+    display: flex;
+    justify-content: space-around;
+    border-style: solid;
+    background-color: lightgray;
+    padding: 0.5em;
+    max-width: 60em;
+    border-radius: 30px;
+    margin: auto;
+  }
+  .countries a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .country {
+      background-color: #1A5F9B;
+      padding: 10px 16px;
+      font-size: 16px;
+      border-radius: 12px;
+      width: 40em;
+  }
+  
+  a:hover {
+    color: black;
+  }
 
   
 section{
@@ -13,16 +42,19 @@ section{
 .cities {
     max-width: 100%;
     height: auto;
+    min-height: 250px;
     background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/uk_london.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
     align-items : center;
     border: thick solid black;
+    border-radius: 12px;
     margin: 1em;
     padding-left: .5em;
     box-shadow: 10px 10px 8px 3px black;
     color: white;
+    flex-grow: 1;
 }
 
 
@@ -30,31 +62,37 @@ section{
 .landmarks {
     max-width: 100%;
     height: auto;
+    min-height: 250px;
     background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/uk_edinburgh.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
     align-items : center;
     border: thick solid black;
+    border-radius: 12px;
     margin: 1em;
     padding-left: .5em;
     box-shadow: 10px 10px 8px 3px black;
     color: white;
+    flex-grow: 1;
 }
 
 
 .citizens {
     max-width: 100%;
     height: auto;
+    min-height: 250px;
     background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/uk_flag.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
     align-items : center;
     border: thick solid black;
+    border-radius: 12px;
     margin: 1em;
     padding-left: .5em;
     box-shadow: 10px 10px 8px 3px black;
     color: white;
+    flex-grow: 1;
 }
  

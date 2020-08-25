@@ -2,116 +2,81 @@
 
     body {
         font-family: 'Poppins', sans-serif;
+        background-image: linear-gradient(white, grey);
+        
     }
 
-    .country-info {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .country-image {
-        width: 50em;  
-        height: auto; 
-        align-self: center;
-        border-style: solid;
-        background-color:lightgoldenrodyellow;
-        padding: 0.5em;
-        border-radius: 30px;
-        margin: 3em;
-        border: 100%;
-    }
-
-    .country-title {
-        align-self: center;
-    }
-
-    .country-details {
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-
-    .cities {
-        border: 5px solid;
-        padding: 2em;
-        flex-grow: 1;
-        background: lightgoldenrodyellow;
-        border-radius: 12px;
-    }
-
-    .landmarks {
-        border: 5px solid;
-        padding: 2em;
-        flex-grow: 1;
-        margin-left: 1em;
-        margin-right: 1em;
-        background: lightgoldenrodyellow;
-        border-radius: 12px;
-    }
-
-    .citizens {
-        border: 5px solid;
-        padding: 2em;
-        flex-grow: 1;
-        background: lightgoldenrodyellow;
-        border-radius: 12px;
-    }
-
-/*all above needs to be changed, all below is home page css*/
     .information {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
+        
+        
+        
+        
+        
     }
 
-    /* .information {
-        max-width: 50em;
-        margin-top: -1em;
-        text-align: center;
-    } */
-    
-    .travel-agents {
-        margin-bottom: 0;
-    }
-
-    .agents {
-        border: 5px solid;
-        display: flex;
-        flex-direction: column;
-        align-content: flex-start;
-        align-self: flex-start;
-        background: lightgoldenrodyellow;
-        padding: 0.5em;
-        border-radius: 30px;
-        border: 100%;
-    }
-
-    .agent-list {
-        display: flex; 
-        flex-direction: column;
-    }
-    
     .profileImages {
-        width: auto;
-        height: 10em;  
-    }
-
-    .name {
-        display: flex;
-        flex-direction: row;
-        align-content: flex-start;
-        margin-bottom: 1.5em; 
-        margin-top: 1.5em;  
-    }
-
-    .bio {
-        margin-left: 0.5em;
+        width: 200px;
+        height: 200px;  
     }
 
     footer {
         padding: 2em; 
         text-align: center;
     }
+
+
+    .imgContainer1 {
+        border: 3px solid black;
+        display: flex;
+        margin: 20px 5px 5px 5px;
+        padding: 3px;
+        width: 450px;
+        position: relative;
+        right: 250px;
+        box-shadow: 3px 3px 3px 5px black;
+        background-color: whitesmoke;
+        
+    }
+
+    .imgContainer2 {
+        border: 3px solid black;
+        display: flex;
+        margin: 20px 5px 5px 5px;
+        padding: 3px;
+        width: 450px;
+        position: relative;
+        right: 25px;
+        box-shadow: 3px 3px 3px 5px black;
+        background-color: whitesmoke;
+        
+    }
+
+    .imgContainer3 {
+        border: 3px solid black;
+        display: flex;
+        margin: 20px 5px 5px 5px;
+        padding: 3px;
+        width: 450px;
+        position: relative;
+        left: 250px;
+        box-shadow: 3px 3px 3px 5px black;
+        background-color: whitesmoke;
+        
+    }
+    h2 {
+        padding-left: 5px;
+        text-decoration: underline;
+    }
+
+    .bio{
+        font-weight: bold;
+        margin-left: 5px;
+        position: relative;
+        top: 40px;
+        right: 155px;
+    }
+    
