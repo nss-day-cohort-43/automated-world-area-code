@@ -1,7 +1,23 @@
 @import "country.css";
 
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.imgBackground {
+    background: url(/images/nz_banner.png) no-repeat fixed center;
+    background-size: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 .cities {
     background: url(/images/nz_auckland.jpg);
+    border: none;
+    border-radius: none;
 }
 
 .landmarks {
@@ -9,5 +25,5 @@
 }
 
 .citizens {
-    background:  url(/images/nz_queen.jpg);
+    background: url(/images/nz_queen.jpg);
 }
