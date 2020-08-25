@@ -24,6 +24,8 @@
     max-width: 60em;
     border-radius: 30px;
     margin: auto;
+    
+    
   }
   .countries a {
     font-weight: bold;
@@ -38,6 +40,9 @@
       border-radius: 12px;
       width: 40em;
       margin: 2px;
+      
+      
+
   }
   
   a:hover {

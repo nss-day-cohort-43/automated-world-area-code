@@ -1,12 +1,12 @@
 const cities = [
     {
-        citizenName: 'Citizen 1'
+        citizenName: 'Sir Winston Churchill'
     },
     {
-        citizenName: 'Citizen 2'
+        citizenName: 'Isambard Kingdom Brunel'
     },
     {
-        citizenName: 'Citizen 3'
+        citizenName: 'Diana, Princess of Wales'
     }
 ]
 

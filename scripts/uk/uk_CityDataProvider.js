@@ -1,12 +1,12 @@
 const cities = [
     {
-        cityName: 'City 1'
+        cityName: 'London: Population 9.75mil'
     },
     {
-        cityName: 'City 2'
+        cityName: 'Birmingham: Population 2.5mil'
     },
     {
-        cityName: 'City 3'
+        cityName: 'Manchester: Population 2mil'
     }
 ]
 

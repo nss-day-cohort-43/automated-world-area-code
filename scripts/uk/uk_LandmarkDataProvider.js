@@ -1,12 +1,12 @@
 const landmark = [
     {
-        landmarkName: 'Landmark 1'
+        landmarkName: 'Stonehenge'
     },
     {
-        landmarkName: 'Landmark 2'
+        landmarkName: 'Big Ben and the Houses of Parliament'
     },
     {
-        landmarkName: 'Landmark 3'
+        landmarkName: 'Buckingham Palace'
     }
 ]
 
