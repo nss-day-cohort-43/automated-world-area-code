@@ -1,4 +1,5 @@
 @import "uk.css";
+@import "brazil.css";
 
 /* body {
     margin: 0;
@@ -14,12 +15,8 @@
 .countryH1 {
     color: rgb(246, 246, 246);
     text-align: center;
-    font-size: 3em;
+    /* font-size: 3em; */
     text-shadow: 3px 3px #1A5F9B;
-}
-
-.header {
-    background: rgba(245, 245, 245, 0.25);
 }
 
 .cities {
